@@ -1,0 +1,199 @@
+/* 全局样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+    padding: 20px;
+}
+
+/* 登录页样式 */
+.login-box {
+    width: 400px;
+    margin: 100px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-item {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form-item label {
+    width: 80px;
+    font-size: 14px;
+    color: #666;
+}
+
+.form-item input {
+    flex: 1;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-btn button {
+    padding: 8px 30px;
+    background-color: #1677ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* 提示框样式 */
+.error-tip {
+    color: #ff4d4f;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 8px;
+    background-color: #fff2f0;
+    border-radius: 4px;
+}
+
+.success-tip {
+    color: #52c41a;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 8px;
+    background-color: #f6ffed;
+    border-radius: 4px;
+}
+
+.msg-tip {
+    color: #1890ff;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 8px;
+    background-color: #e6f7ff;
+    border-radius: 4px;
+}
+
+/* 通用容器 */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* 数据表格 */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+.data-table th {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* 按钮样式 */
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:link, .btn:visited {
+    color: #fff;
+}
+
+/* 普通按钮 */
+.btn {
+    background-color: #1677ff;
+}
+
+/* 借书按钮 */
+.borrow-btn {
+    background-color: #52c41a;
+    border: none;
+    color: #fff;
+}
+
+/* 还书按钮 */
+.return-btn {
+    background-color: #faad14;
+    border: none;
+    color: #fff;
+}
+
+/* 禁用按钮 */
+.disable-btn {
+    background-color: #d9d9d9;
+    color: #8c8c8c;
+    cursor: not-allowed;
+}
+
+/* 操作按钮组 */
+.oper-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* 图书详情卡片 */
+.detail-card {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.detail-card p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.detail-card p span {
+    color: #666;
+    display: inline-block;
+    width: 80px;
+}
+
+/* 表单样式 */
+.borrow-form, .return-form {
+    display: inline-block;
+}
